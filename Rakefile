@@ -10,6 +10,7 @@ begin
     gem.email = "runrun@runpaint.org"
     gem.homepage = "http://github.com/runpaint/pngrammar"
     gem.authors = ["Run Paint Run Run"]
+    gem.add_dependency "mechanize"
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "yard", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
